@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FMama</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body { 
+        /* ✅ Gagamit tayo ng solid color na match sa red ng image mo para hindi halata ang dugtong */
+        background-color: #F7879A; 
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        /* ✅ "repeat-y" para kung gaano man kahaba ang sulat mo, uulit-ulit yung design pababa */
+        background: url("shesh.jpg") repeat-y center top; 
+        background-size: 100% auto; /* Sakto sa lapad ng screen */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 180px; /* Space para sa bow sa taas */
+        padding-bottom: 100px;
+    }
+
+    .letter-content {
+        width: 75%; /* Saktong lapad para sa loob ng puti */
+        max-width: 650px;
+        text-align: center;
+        z-index: 10;
+        /* ✅ Nilagyan ko ng puting background na may konting aninag para siguradong readable */
+        background-color: white; 
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    p {
+        font-size: clamp(1.1rem, 2.5vw, 1.5rem); 
+        font-family: 'Indie Flower';
+        color: #FC86AA;
+        line-height: 1.6;
+        white-space: pre-line;
+        font-weight: bold;
+    }
+
+    /* ❤️ HEARTS */
+    .heart {
+        position: fixed;
+        top: 100%;
+        color: #ffb6c1;
+        font-size: 30px;
+        animation: floatUp linear forwards;
+        z-index: 5;
+    }
+
+    @keyframes floatUp {
+        0% { transform: translateY(0) scale(1); opacity: 1; }
+        100% { transform: translateY(-110vh) scale(1.5); opacity: 0; }
+    }
+
+    .back-btn {
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        z-index: 1000;
+        padding: 8px 18px;
+        background-color: white;
+        color: pink;
+        text-decoration: none;
+        font-family: 'Indie Flower';
+        border-radius: 50px;
+        border: 2px solid pink;
+    }
+</style>
+</head>
+<body>
+
+    <a href="index.html" class="back-btn">Back</a>
+
+    <div class="container">
+        <div class="letter-content">
+            <p>
+            <h1>To my strongest and biggest basher/supporter</h1><br>
+                Happy Mother's Day, Mama. 💖<br><br>
+			So first of all, gusto ko lang magpasalamat sa’yo for everything. For <br>
+			all your sacrifices, for all the times na ikaw yung nagtiis, nag-adjust, <br>
+			at nagpatuloy kahit pagod ka na. Hindi ko man lagi nasasabi, pero sobra<br>
+			akong grateful sa lahat ng ginawa mo para sa akin. You gave me a life <br>
+			that you built with your own hands, even when it meant giving up so<br>
+			many things for yourself.<br>
+			<br>
+			Alam nating dalawa na hindi po tayo laging smooth. Madalas may <br>
+			misunderstandings tayo, may mga bagay na hindi tayo nagkakaintindihan,<br>
+			may mga pagkakataon na nagkakasakitan tayo ng words or emotions. Pero <br>
+			kahit ganon, sa kabila ng lahat, ikaw pa rin ang pipiliin ko. No matter <br>
+			what happens, Ma, I will always choose you. Kasi sa lahat ng tao, ikaw<br>
+			yung hindi ako iniwan at patuloy na nagmahal sa akin kahit hindi perfect ang lahat.<br>
+			<br>
+			Thank you rin po sa lahat ng lessons na tinuro mo sa akin—about life,<br>
+			about strength, about patience, and about understanding others. Kahit<br>
+			minsan mahirap intindihin, ngayon unti-unti kong naiintindihan kung bakit<br>
+			mo ginawa lahat ng ‘yon.<br>
+			<br>
+			I know ngayon lang ako nag-message ng ganito, kasi pareho tayong hindi vocal <br>
+			pagdating sa ganitong bagay. Hindi tayo sanay magsabi ng feelings, hindi tayo <br>
+			yung type na laging expressive. Pero deep inside, Ma, alam mo naman kung<br>
+			gaano kita kamahal at kung gaano ako ka-grateful sa’yo. Hindi lang talaga <br>
+			nasasabi, pero totoo lahat ng ‘yon sa loob ko.<br>
+			<br>
+			Ma, alam ko rin lahat ng pinagdaanan mo, lalo na sa mga traumas at hirap na  <br>
+			binigay nina Papa. Hindi ko kayang sukatin yung bigat nun para sa’yo. Pero kahit  <br>
+			ganoon, you still chose to be strong. You still chose to keep going for me, kahit  <br>
+			na ikaw mismo nasasaktan. At doon ako mas lalong humahanga sa’yo. Hindi <br>
+			ka lang basta nanay—isa kang taong sobrang tibay kahit <br>
+			paulit-ulit kang nasusubok ng buhay.<br>
+			<br>
+			Honestly, sobrang saya ko rin kasi finally, nahanap mo na yung love na <br>
+			deserve mo—yung pagmamahal na hindi mo naranasan noon. Nakakagaan sa <br>
+			loob makita kang masaya at mahal nang tama. Thank you kasi binigyan mo<br>
+			rin ako ng stepdad na responsable, caring, at ginagawa ang best niya para sa atin. <br>
+			Masaya ako kasi after everything you went through,nakita mo rin yung taong <br>
+			kayang ibigay sa’yo yung peace, respect, at pagmamahal na<br>
+			deserve na deserve mo.<br>
+			<br>
+			And Ma, I know I’m not a perfect daughter as it seems.Alam kong <br>
+			marami rin akong pagkukulang, may mga pagkakataon na matigas ulo ko,  <br>
+			hindi kita naiintindihan, o hindi ko napapakita nang maayos kung gaano kita  <br>
+			naaappreciate. Pero kahit hindi ako perfect na anak, sana alam mo na mahal na <br>
+			mahal kita at ginagawa ko rin ang best ko sa paraan na alam ko.<br>
+			<br>
+			I also want to promise you something. Like sa song na “14” by <br>
+			Silent Sanctuary, sa line na “ibibigay ko ang lahat pati na rin ang  <br>
+			iyong pangarap" I will do my best to live by that. Ibibigay ko ang lahat.  <br>
+			And I promise I will try my hardest to make your dreams cometrue too. Hindi <br>
+			lang para sa akin, but for you as well.<br>
+			<br>
+			Magsusumikap ako para magkaroon kayo ng successful na anak. Alam <br>
+			kong malayo pa ako, marami pa akong kailangang pagdaanan at paghirapan, pero <br>
+			malayo na rin tayo. Hindi man agad-agad, pero darating din tayo doon. I’ll keep <br>
+			trying until I can finally give back all the love, sacrifices, and efforts you gave me.<br>
+			<br>
+			Lahat ng hirap, lahat ng sakripisyo, lahat ng sakit na pinagdaanan mo—hindi ko <br>
+			can give you the peaceful and happy life you truly deserve. <br>
+			<br>
+			I love you so much, Ma. More than words can fully express. <br>
+			Happy Mother’s Day.💖
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function createHeart() {
+            const heart = document.createElement("div");
+            heart.className = "heart";
+            heart.innerHTML = "💖";
+            heart.style.left = Math.random() * 100 + "vw";
+            heart.style.animationDuration = (Math.random() * 3 + 4) + "s";
+            document.body.appendChild(heart);
+            setTimeout(() => { heart.remove(); }, 7000);
+        }
+        setInterval(createHeart, 800); 
+    </script>
+</body>
+</html>
